@@ -1,0 +1,380 @@
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<title>Prévia Clear Dent</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap">
+<style>
+/* Layout: celular de 390x844 centralizado (moldura em telas largas, tela cheia em celular), interface no padrão do app. */
+:root{
+  --page:#E4E3DF; --note-bg:#D6F0F2; --note-fg:#3F5C61; --note-b:#00717A;
+  --ig-bg:#FFFFFF; --ig-fg:#121212; --ig-muted:#737373; --ig-line:#DBDBDB; --ig-gray:#EFEFEF;
+  --ig-blue:#0095F6; --ig-link:#00376B; --ok:#1F7A3E; --ok-bg:#E3F3E8; --ed:#8D5A0C; --ed-bg:#F3E4C6;
+  --ph-d:#0A2F35; --ph-l:#E8F7F8; --ph-d-fg:#FAFAF9; --ph-l-fg:#0A2F35;
+  --sys:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+  --brand:'Plus Jakarta Sans',ui-sans-serif,system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --page:#0B0B0D; --note-bg:#123A41; --note-fg:#9FC3C7; --note-b:#5FBFC6;
+  --ig-bg:#000000; --ig-fg:#F5F5F5; --ig-muted:#A8A8A8; --ig-line:#262626; --ig-gray:#262626;
+  --ig-link:#E0F1FF; --ok:#8FD3A4; --ok-bg:#12301C; --ed:#E0A84A; --ed-bg:#3A2A0C;
+  --ph-d:#0A2F35; --ph-l:#123A41; --ph-l-fg:#E8F7F8; color-scheme:dark;}}
+:root[data-theme="dark"]{
+  --page:#0B0B0D; --note-bg:#123A41; --note-fg:#9FC3C7; --note-b:#5FBFC6;
+  --ig-bg:#000000; --ig-fg:#F5F5F5; --ig-muted:#A8A8A8; --ig-line:#262626; --ig-gray:#262626;
+  --ig-link:#E0F1FF; --ok:#8FD3A4; --ok-bg:#12301C; --ed:#E0A84A; --ed-bg:#3A2A0C;
+  --ph-d:#0A2F35; --ph-l:#123A41; --ph-l-fg:#E8F7F8; color-scheme:dark;}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+img{max-width:100%}
+body{background:var(--page);color:var(--ig-fg);font-family:var(--sys);margin:0;padding-inline:16px;padding-block:14px 18px}
+button{font:inherit;color:inherit}
+.note{max-width:414px;margin:0 auto 12px;font-size:12.5px;line-height:1.45;font-weight:500;color:var(--note-fg);background:var(--note-bg);border-radius:6px;padding:9px 12px}
+.note b{color:var(--note-b);font-weight:700}
+.stage{margin-inline:auto;position:relative}
+.phone{width:414px;height:868px;padding:12px;background:#0C0C0E;border-radius:56px;box-shadow:0 0 0 2px #2A2B30,0 24px 60px rgba(0,0,0,.35);transform-origin:top left}
+.screen{position:relative;width:390px;height:844px;border-radius:44px;overflow:hidden;background:var(--ig-bg);color:var(--ig-fg)}
+.status{position:absolute;inset:0 0 auto 0;height:44px;display:flex;align-items:center;justify-content:space-between;padding:6px 30px 0 34px;z-index:30;background:var(--ig-bg);font-size:15px;font-weight:600;letter-spacing:-.01em}
+.status .isl{position:absolute;left:50%;top:10px;translate:-50% 0;width:104px;height:28px;border-radius:20px;background:#000}
+.status .ic{display:flex;gap:5px;align-items:center}
+.body{position:absolute;left:0;right:0;top:44px;bottom:66px;overflow-y:auto;scrollbar-width:none}
+.body::-webkit-scrollbar{display:none}
+.nav{position:absolute;left:0;right:0;bottom:0;height:66px;border-top:1px solid var(--ig-line);background:var(--ig-bg);display:flex;justify-content:space-around;align-items:flex-start;padding-top:12px;z-index:30}
+.nav .hi{position:absolute;bottom:7px;left:50%;translate:-50% 0;width:128px;height:5px;border-radius:3px;background:var(--ig-fg)}
+.nav svg{display:block}
+.nav .me{width:26px;height:26px;border-radius:50%;object-fit:cover;border:1.5px solid var(--ig-fg)}
+.tb{display:flex;align-items:center;justify-content:space-between;height:44px;padding:0 16px}
+.tb .un{display:flex;align-items:center;gap:5px;font-size:20px;font-weight:700;letter-spacing:-.01em;min-width:0;overflow-wrap:anywhere}
+.tb .r{display:flex;gap:20px}
+.hd{display:flex;align-items:center;gap:26px;padding:8px 16px 10px}
+.avr{position:relative;flex:0 0 auto;width:86px;height:86px;border-radius:50%;display:flex;cursor:pointer}
+.av{width:100%;height:100%;border-radius:50%;object-fit:cover;border:1px solid var(--ig-line);background:#fff}
+.nota{position:absolute;z-index:2;top:-16px;left:-8px;background:var(--ig-bg);color:var(--ig-muted);font-size:10.5px;padding:5px 9px;border-radius:14px;box-shadow:0 1px 6px rgba(0,0,0,.28)}
+.bio a .lk{vertical-align:-2px}
+.st{flex:1;display:flex;justify-content:space-around;text-align:center}
+.st b{display:block;font-size:17px;font-weight:700;font-variant-numeric:tabular-nums}
+.st span{font-size:13px}
+.bio{padding:0 16px;font-size:14px;line-height:1.38}
+.bio .nm{font-weight:700;display:block}
+.bio .cat{color:var(--ig-muted);display:block}
+.bio .ln{display:block;white-space:pre-line}
+.bio a{color:var(--ig-link);font-weight:600;text-decoration:none;overflow-wrap:anywhere}
+.acts{display:flex;gap:6px;padding:12px 16px 4px}
+.acts span{flex:1;text-align:center;font-weight:600;font-size:13.5px;border-radius:8px;padding:8px 0;background:var(--ig-gray)}
+.acts .f{background:var(--ig-blue);color:#fff}
+.hl{display:flex;gap:16px;padding:10px 16px 12px;overflow-x:auto;scrollbar-width:none}
+.hl div{display:flex;flex-direction:column;align-items:center;gap:5px;font-size:12px;flex:0 0 auto;width:66px;text-align:center}
+.hl i{width:62px;height:62px;border-radius:50%;border:1px solid var(--ig-line);display:flex;align-items:center;justify-content:center;overflow:hidden;background:#00717A}
+.hl i img{width:34px;height:auto}
+.hl .sty{cursor:pointer}
+.hl i.ring{border:0;padding:3px;background:linear-gradient(45deg,#feda75 0%,#fa7e1e 25%,#d62976 50%,#962fbf 75%,#4f5bd5 100%);font-style:normal}
+.hl i.ring img.foto{width:100%;height:100%;border-radius:50%;object-fit:cover;border:2.5px solid var(--ig-bg);box-sizing:border-box}
+.hl i.ring.pend{font-size:9px;font-weight:700;line-height:1.1;text-align:center;color:var(--ig-muted);border-style:dashed;background:var(--ph-l)}
+.vp.story{aspect-ratio:9/12;margin:0 auto;width:78%;border-radius:14px}
+
+.viewer.st{top:0;bottom:0;z-index:40;background:#000;animation:none}
+.viewer.st .vt{display:none}
+.viewer.st .vs{overflow:hidden;background:#000}
+.post.sp{position:relative;height:100%;background:#000;color:#fff;display:flex;flex-direction:column}
+.sp .sbox{position:relative;flex:0 0 auto;width:100%;aspect-ratio:9/16;background:#000;overflow:hidden}
+.sp .sbox video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000;cursor:pointer}
+.sp .sbox:after{content:"";position:absolute;left:0;right:0;top:0;height:110px;background:linear-gradient(180deg,rgba(0,0,0,.45),rgba(0,0,0,0));pointer-events:none}
+.sp .prog{position:absolute;left:10px;right:10px;top:12px;height:2.5px;background:rgba(255,255,255,.35);border-radius:2px;overflow:hidden;z-index:3}
+.sp .prog i{display:block;height:100%;width:0;background:#fff}
+.sp .shd{position:absolute;left:12px;right:6px;top:24px;display:flex;align-items:center;gap:9px;z-index:3;font-size:13.5px}
+.sp .shd img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid rgba(255,255,255,.6);background:#fff}
+.sp .shd b{font-weight:700}.sp .shd span{opacity:.75;font-weight:500}
+.sp .shd .sx{margin-left:auto;background:none;border:0;color:#fff;width:40px;height:40px;display:flex;align-items:center;justify-content:center;cursor:pointer}
+.sp .sbot{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center;gap:6px;padding:4px 0 0}
+.sp .msg{display:flex;align-items:center;gap:14px;margin:0 12px;padding:0 16px;height:44px;border:1.5px solid rgba(255,255,255,.65);border-radius:999px;font-size:14px;color:rgba(255,255,255,.85)}
+.sp .msg span{flex:1;text-align:left}
+.sp .appr{padding:0 12px 6px}
+.sp .ab{padding:9px 8px}
+.phb.sm{padding:14px 18px 6px;gap:6px}.phb.sm p{font-size:12.5px;line-height:1.5;margin:6px 0 0}.phb.sm p b{font-weight:600}.phb.sm h3{font-size:16px}
+.tabs{display:flex;border-top:1px solid var(--ig-line)}
+.tabs div{flex:1;display:flex;justify-content:center;padding:10px 0;color:var(--ig-muted);border-bottom:1px solid transparent}
+.tabs .on{color:var(--ig-fg);border-bottom-color:var(--ig-fg)}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px}
+.tile{position:relative;width:100%;min-width:0;aspect-ratio:3/4;overflow:hidden;border:0;padding:0;margin:0;background:var(--ph-d);cursor:pointer;container-type:inline-size;text-align:left}
+.tile .th{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.tile .car{position:absolute;top:7px;right:7px;z-index:3;width:18px;height:18px;filter:drop-shadow(0 1px 2px rgba(0,0,0,.55))}
+.tile .dia{position:absolute;left:6px;bottom:6px;z-index:3;background:rgba(10,47,53,.82);color:#fff;font-size:10.5px;font-weight:700;padding:3px 7px;border-radius:10px;font-family:var(--brand)}
+.tile:active{filter:brightness(.88)}
+.tile:focus-visible,.bk:focus-visible,.nvb:focus-visible,.more:focus-visible,.ab:focus-visible{outline:2px solid var(--ig-blue);outline-offset:-2px}
+.ph-d{background:var(--ph-d);color:var(--ph-d-fg)}
+.ph-l{background:var(--ph-l);color:var(--ph-l-fg)}
+.pi{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:flex-end;gap:5cqw;padding:9cqw 9cqw 17cqw}
+.ph-fmt{font-family:var(--brand);font-size:7cqw;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#00717A}
+.ph-tema{font-family:var(--brand);font-size:10.4cqw;font-weight:800;line-height:1.15;display:-webkit-box;-webkit-line-clamp:5;-webkit-box-orient:vertical;overflow:hidden}
+.ph-chip{align-self:flex-start;font-family:var(--brand);font-size:6.2cqw;font-weight:700;border:1px dashed currentColor;border-radius:3px;padding:1.4cqw 3cqw;opacity:.75}
+.viewer{position:absolute;left:0;right:0;top:44px;bottom:66px;background:var(--ig-bg);z-index:20;display:flex;flex-direction:column;animation:in .22s ease}
+@keyframes in{from{transform:translateX(24px);opacity:0}to{transform:none;opacity:1}}
+.vt{display:flex;align-items:center;gap:6px;height:44px;padding:0 8px;border-bottom:1px solid var(--ig-line);flex:0 0 auto}
+.bk{background:none;border:0;width:40px;height:40px;display:flex;align-items:center;justify-content:center;cursor:pointer;border-radius:50%}
+.vt .tt{line-height:1.15}.vt .tt small{display:block;font-size:11px;color:var(--ig-muted);font-weight:500}.vt .tt b{font-size:16px;font-weight:700}
+.vs{flex:1;overflow-y:auto;scrollbar-width:none}
+.vs::-webkit-scrollbar{display:none}
+.ph2{display:flex;align-items:center;gap:10px;padding:10px 12px}
+.ph2 img{width:32px;height:32px;border-radius:50%;object-fit:cover;border:1px solid var(--ig-line);background:#fff}
+.ph2 b{font-size:13.5px;font-weight:700;display:block;line-height:1.15}.ph2 span{font-size:11.5px;color:var(--ig-muted)}
+.ph2 svg{margin-left:auto}
+.vp{position:relative;width:100%;aspect-ratio:4/5;overflow:hidden;background:var(--ph-d);touch-action:pan-y;cursor:grab}
+.vp.vid{cursor:default}
+.vp video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000}
+.tr{position:absolute;inset:0;display:flex;transition:transform .3s ease}
+.tr img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;display:block;user-select:none;-webkit-user-drag:none}
+.cnt{position:absolute;top:12px;right:12px;z-index:6;background:rgba(18,18,18,.72);color:#fff;font-size:12px;font-weight:600;padding:4px 9px;border-radius:12px;font-variant-numeric:tabular-nums}
+.nvb{position:absolute;top:50%;translate:0 -50%;z-index:5;width:30px;height:30px;border-radius:50%;border:0;background:rgba(250,250,249,.88);color:#2B2E33;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 1px 4px rgba(0,0,0,.3)}
+.nvb.l{left:8px}.nvb.r{right:8px}
+.dots{display:flex;justify-content:center;gap:4px;padding:10px 0 0}
+.dots i{width:6px;height:6px;border-radius:50%;background:var(--ig-line);display:block}
+.dots i.on{background:var(--ig-blue)}
+.ico{display:flex;gap:16px;padding:8px 12px 4px;align-items:center}
+.ico .sv{margin-left:auto}
+.cap{padding:2px 12px 14px;font-size:13.5px;line-height:1.4}
+.cap .tx{white-space:pre-line;display:block}
+.cap.open .tx{display:block}
+.cap .tg{color:var(--ig-link)}
+.lg{margin:0 12px 10px;border:1px solid var(--ig-line,#dbdbdb);border-radius:12px;background:#f7fafa;padding:10px 12px}
+.lgh{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;font-size:12px}
+.lg pre{white-space:pre-wrap;font-size:12.5px;line-height:1.5;font-family:inherit;margin:0;color:#262626;word-break:break-word}
+.cpy{border:0;background:#00717A;color:#fff;border-radius:8px;padding:6px 12px;font-size:12px;font-weight:600;cursor:pointer}
+.more{display:none!important}.more{background:none;border:0;padding:0;margin:2px 0 0;color:var(--ig-muted);cursor:pointer;font-size:13.5px}
+.cap.open .more{display:none}
+.cap small{display:block;color:var(--ig-muted);font-size:10.5px;margin-top:8px;text-transform:uppercase;letter-spacing:.03em}
+.appr{display:flex;gap:8px;padding:2px 12px 22px}
+.ab{flex:1;display:flex;align-items:center;justify-content:center;gap:6px;text-align:center;text-decoration:none;font-weight:700;font-size:13.5px;border-radius:8px;padding:11px 8px;font-family:var(--brand)}
+.ab.ok{background:var(--ok-bg);color:var(--ok)}
+.ab.ed{background:var(--ed-bg);color:var(--ed)}
+.phb{padding:26px 18px;display:flex;flex-direction:column;gap:12px;font-family:var(--brand)}
+.phb .k{font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--note-b);text-transform:uppercase}
+.phb h3{margin:0;font-size:20px;line-height:1.22;font-weight:800;text-wrap:balance}
+.phb p{margin:0;font-size:13.5px;line-height:1.55;color:var(--ig-muted);font-weight:500}
+.hint{max-width:414px;margin:10px auto 0;text-align:center;font-size:12px;color:var(--note-fg)}
+@media (max-width:480px){
+  body{padding:0}
+  .note,.hint{display:none}
+  .stage{width:100%!important;height:100dvh!important}
+  .phone{width:100%;height:100%;padding:0;border-radius:0;box-shadow:none;transform:none!important}
+  .screen{width:100%;height:100%;border-radius:0}
+  .status{display:none}
+  .body,.viewer{top:0}
+  .nav{height:calc(60px + env(safe-area-inset-bottom,0px));padding-bottom:env(safe-area-inset-bottom,0px)}
+  .body,.viewer{bottom:calc(60px + env(safe-area-inset-bottom,0px))}
+  .nav .hi{display:none}
+}
+@media (prefers-reduced-motion: reduce){.tr,.viewer{transition:none;animation:none}}
+</style>
+<p class="note" id="note"><b>Prévia para aprovação · Clear Dent.</b> Os posts aparecem na ordem em que serão publicados. Toque em um post para ver como ele fica no Instagram e use os botões para aprovar ou pedir ajuste.</p>
+<div class="stage" id="stage"><div class="phone" id="phone"><div class="screen">
+  <div class="status" aria-hidden="true"><span>9:41</span><span class="isl"></span>
+    <span class="ic"><svg width="18" height="12" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx=".8"/><rect x="5" y="5.5" width="3" height="6.5" rx=".8"/><rect x="10" y="3" width="3" height="9" rx=".8"/><rect x="15" y="0" width="3" height="12" rx=".8"/></svg>
+    <svg width="26" height="12" viewBox="0 0 26 12" fill="none" stroke="currentColor"><rect x=".5" y=".5" width="22" height="11" rx="3.2" opacity=".5"/><rect x="2" y="2" width="19" height="8" rx="2" fill="currentColor" stroke="none"/><path d="M24 4v4" stroke-linecap="round" opacity=".5"/></svg></span></div>
+  <div class="body" id="prof">
+    <div class="tb"><span class="un">clinica_clear_dent <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 9l7 7 7-7"/></svg></span>
+      <span class="r"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M12 8v8M8 12h8"/></svg>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></svg></span></div>
+    <div class="hd"><div class="avr" id="avr" role="button" tabindex="0" aria-label="Ver Stories"><span class="nota">Nota...</span><img class="av" src="assets/avatar.webp" alt="Logo da Clear Dent"></div>
+      <div class="st"><div><b>92</b><span>Publicações</span></div><div><b>1.876</b><span>Seguidores</span></div><div><b>93</b><span>Seguindo</span></div></div></div>
+    <div class="bio"><span class="nm">CLEAR DENT | Dentista em Nilópolis</span><span class="cat">Dentista e consultório odontológico</span><span class="ln">🦷 Clínica Geral • Ortodontia • Odontopediatria
+✨ Harmonização e Clareamento
+👶 Cuidado acolhedor com crianças
+👇 Marque sua consulta conosco</span><span class="cat">Praça Orlando Hungria, 16 - Sala 601, Nilópolis 26520340</span><a href="https://wa.me/5521982704059" target="_blank" rel="noopener"><svg class="lk" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1"/><path d="M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/></svg> wa.me/5521982704059</a></div>
+    <div class="acts"><span class="f">Seguir</span><span>Mensagem</span><span>Contato</span></div>
+    <div class="hl" aria-label="Stories e destaques"><div class="sty" data-post="4" role="button" tabindex="0"><i class="ring"><img class="foto" src="assets/s/ter.webp" alt=""></i>Qui 22/10</div><div class="sty" data-post="5" role="button" tabindex="0"><i class="ring"><img class="foto" src="assets/s/qui.webp" alt=""></i>Sáb 24/10</div><div class="sty" data-post="7" role="button" tabindex="0"><i class="ring"><img class="foto" src="assets/s/ter27.webp" alt=""></i>Ter 27/10</div><div class="sty" data-post="6" role="button" tabindex="0"><i class="ring"><img class="foto" src="assets/s/sab.webp" alt=""></i>Qui 29/10</div><div class="sty" data-post="10" role="button" tabindex="0"><i class="ring"><img class="foto" src="assets/s/sab31.webp" alt=""></i>Sáb 31/10</div><div><i><img src="assets/icon-white.png" alt=""></i>Clínico Geral</div><div><i><img src="assets/icon-white.png" alt=""></i>Infantil</div><div><i><img src="assets/icon-white.png" alt=""></i>Ortodontia</div><div><i><img src="assets/icon-white.png" alt=""></i>Agendar</div></div>
+    <div class="tabs" aria-hidden="true">
+      <div class="on"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><rect x="3" y="3" width="18" height="18" rx="1"/><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg></div>
+      <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M3 9h18M9 3l3 6M15 3l3 6"/><path d="M10.5 12.5v5l4-2.5z" fill="currentColor"/></svg></div>
+      <div><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="12" cy="10" r="3"/><path d="M6 19c1-3 3-4 6-4s5 1 6 4"/></svg></div>
+    </div>
+    <div class="grid" id="grid"><button class="tile" data-post="9" aria-label="Abrir post 9: Carrossel, sexta 30/10"><img class="th" src="assets/p9/s1.webp" alt=""><svg class="car" viewBox="0 0 24 24" fill="none"><rect x="7" y="3" width="14" height="14" rx="2" fill="#fff"/><path d="M4 7v11a2 2 0 0 0 2 2h11" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg><span class="dia">Sex 30/10</span></button><button class="tile" data-post="8" aria-label="Abrir post 8: Reel, quarta 28/10"><img class="th" src="assets/p8/cover.webp" alt=""><svg class="car" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M3 9h18M9 3l3 6M15 3l3 6"/><path d="M10.5 12.5v5l4-2.5z" fill="#fff"/></svg><span class="dia">Qua 28/10</span></button><button class="tile" data-post="3" aria-label="Abrir post 3: Imagem única, segunda 26/10"><img class="th" src="assets/p3.webp" alt=""><span class="dia">Seg 26/10</span></button><button class="tile" data-post="2" aria-label="Abrir post 2: Carrossel, sexta 23/10"><img class="th" src="assets/p2/s1.webp" alt=""><svg class="car" viewBox="0 0 24 24" fill="none"><rect x="7" y="3" width="14" height="14" rx="2" fill="#fff"/><path d="M4 7v11a2 2 0 0 0 2 2h11" stroke="#fff" stroke-width="2" stroke-linecap="round"/></svg><span class="dia">Sex 23/10</span></button><button class="tile" data-post="1" aria-label="Abrir post 1: Reel, quarta 21/10"><img class="th" src="assets/p1/cover.webp" alt=""><svg class="car" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M3 9h18M9 3l3 6M15 3l3 6"/><path d="M10.5 12.5v5l4-2.5z" fill="#fff"/></svg><span class="dia">Qua 21/10</span></button></div>
+  </div>
+  <div class="viewer" id="viewer" hidden>
+    <div class="vt"><button class="bk" id="back" aria-label="Voltar"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 5l-7 7 7 7"/></svg></button>
+      <div class="tt"><small>clinica_clear_dent</small><b>Publicações</b></div></div>
+    <div class="vs"><section class="post" data-post="1" data-n="1" hidden><div class="ph2"><img src="assets/avatar.webp" alt=""><div><b>clinica_clear_dent</b><span>21 de outubro</span></div><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg></div><div class="vp vid"><video src="assets/p1/reel.mp4" poster="assets/p1/cover.webp" controls playsinline preload="metadata"></video></div><div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.4-4.9A8.5 8.5 0 1 1 21 11.5z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg><svg class="sv" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg></div><div class="cap"><div class="tx"><b>clinica_clear_dent</b> Seu filho tem medo do dentista? 🦷😟
+
+Isso é mais comum do que parece, e dá para ajudar em casa 💙
+
+✅ Converse com calma e fale do dentista de forma positiva 🗣️
+✅ Nunca use o dentista como ameaça 🚫
+✅ Brinque de dentista antes da consulta 🧸
+✅ Conte à equipe como a criança se sente 👂
+
+Na Clear Dent, cada criança tem o seu tempo, com acolhimento e paciência 🤗✨
+
+💬 Salve este Reel e compartilhe com outro pai ou mãe 🔖
+📲 Quer marcar a consulta do seu filho? Toque no link da bio e fale com a gente no WhatsApp.
+📍 Clear Dent · Praça Orlando Hungria, 16, Sala 601, Nilópolis
+
+
+
+
+
+<span class="tg">#odontopediatria #dentistainfantil #medodedentista #saudebucalinfantil #nilopolis #cleardent</span></div><button class="more">mais</button><small>21 de outubro</small></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%201%20%28Reel%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%201%20%28Reel%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></section><section class="post" data-post="2" data-n="6" data-i="0" hidden><div class="ph2"><img src="assets/avatar.webp" alt=""><div><b>clinica_clear_dent</b><span>23 de outubro</span></div><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg></div><div class="vp"><div class="tr"><img src="assets/p2/s1.webp" alt="Carrossel de Ortodontia, slide 1 de 6" width="1080" height="1350" decoding="async"><img src="assets/p2/s2.webp" alt="Carrossel de Ortodontia, slide 2 de 6" width="1080" height="1350" loading="lazy" decoding="async"><img src="assets/p2/s3.webp" alt="Carrossel de Ortodontia, slide 3 de 6" width="1080" height="1350" loading="lazy" decoding="async"><img src="assets/p2/s4.webp" alt="Carrossel de Ortodontia, slide 4 de 6" width="1080" height="1350" loading="lazy" decoding="async"><img src="assets/p2/s5.webp" alt="Carrossel de Ortodontia, slide 5 de 6" width="1080" height="1350" loading="lazy" decoding="async"><img src="assets/p2/s6.webp" alt="Carrossel de Ortodontia, slide 6 de 6" width="1080" height="1350" loading="lazy" decoding="async"></div><span class="cnt">1/6</span><button class="nvb l" aria-label="Slide anterior" hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button><button class="nvb r" aria-label="Próximo slide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button></div><div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.4-4.9A8.5 8.5 0 1 1 21 11.5z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg><svg class="sv" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg></div><div class="dots"></div><div class="cap"><div class="tx"><b>clinica_clear_dent</b> Aparelho: o que é mito e o que é verdade? 😁🦷
+
+Deslize e confira 👉
+
+❌ “Aparelho é só para adolescente.” A avaliação ortodôntica pode ser feita em várias idades 👧🧑👩.
+
+❌ “Quem usa aparelho não consegue cuidar da higiene.” Exige cuidado extra, mas é possível, com escova e fio específicos 🪥.
+
+❌ “Aparelho dói o tempo todo.” Um desconforto leve pode aparecer nos primeiros dias e costuma diminuir 😌.
+
+✨ Cada sorriso é um caso: só a avaliação com o ortodontista define o melhor caminho e o tempo do tratamento 🩺.
+
+💬 Qual dessas você já tinha ouvido? Conta aqui nos comentários 👇
+📲 Quer saber se o aparelho é para você ou para seu filho? Marque sua consulta conosco pelo link da bio.
+📍 Clear Dent · Praça Orlando Hungria, 16, Sala 601, Nilópolis
+
+
+
+
+
+<span class="tg">#ortodontia #aparelhoortodontico #mitoseverdades #sorriso #nilopolis #cleardent</span></div><button class="more">mais</button><small>23 de outubro</small></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%202%20%28Carrossel%20de%20Ortodontia%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%202%20%28Carrossel%20de%20Ortodontia%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></section><section class="post" data-post="3" data-n="1" hidden><div class="ph2"><img src="assets/avatar.webp" alt=""><div><b>clinica_clear_dent</b><span>26 de outubro</span></div><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg></div><div class="vp"><div class="tr"><img src="assets/p3.webp" alt="Mulher usando fio dental" width="1080" height="1350"></div></div><div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.4-4.9A8.5 8.5 0 1 1 21 11.5z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg><svg class="sv" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg></div><div class="cap"><div class="tx"><b>clinica_clear_dent</b> Fio dental: o passo que muita gente esquece 🦷🧵
+
+Escova e fio dental fazem parte da rotina de cuidado com o seu sorriso 😁
+
+🪥 A escova limpa as superfícies
+🧵 O fio ajuda a limpar entre os dentes, onde a escova nem sempre alcança
+
+Não sabe como usar o fio direito? Pergunte na sua próxima consulta, a gente mostra com calma 🤗
+
+💬 E você, já usa o fio dental todos os dias? Conta pra gente aqui nos comentários 👇
+📲 Marque sua consulta conosco pelo link da bio.
+📍 Clear Dent · Praça Orlando Hungria, 16, Sala 601, Nilópolis
+
+
+
+
+
+<span class="tg">#fiodental #saudebucal #higienebucal #cuidadodiario #nilopolis #cleardent</span></div><button class="more">mais</button><small>26 de outubro</small></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%203%20%28Imagem%20%C3%BAnica%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%203%20%28Imagem%20%C3%BAnica%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></section><section class="post sp" data-post="4" data-n="1" hidden><div class="sbox"><video src="assets/s/ter.mp4" poster="assets/s/ter.webp" playsinline preload="metadata"></video><div class="prog"><i></i></div><div class="shd"><img src="assets/avatar.webp" alt=""><b>clinica_clear_dent</b><span>Agora</span><button class="sx" aria-label="Fechar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div></div><div class="sbot"><div class="msg"><span>Enviar mensagem</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%204%20%28Story%20responda%201%2C%202%20ou%203%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%204%20%28Story%20responda%201%2C%202%20ou%203%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></div></section><section class="post sp" data-post="5" data-n="1" hidden><div class="sbox"><video src="assets/s/qui.mp4" poster="assets/s/qui.webp" playsinline preload="metadata"></video><div class="prog"><i></i></div><div class="shd"><img src="assets/avatar.webp" alt=""><b>clinica_clear_dent</b><span>Agora</span><button class="sx" aria-label="Fechar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div></div><div class="sbot"><div class="msg"><span>Enviar mensagem</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%205%20%28Story%20responda%20sua%20d%C3%BAvida%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%205%20%28Story%20responda%20sua%20d%C3%BAvida%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></div></section><section class="post sp" data-post="7" data-n="1" hidden><div class="sbox"><video src="assets/s/ter27.mp4" poster="assets/s/ter27.webp" playsinline preload="metadata"></video><div class="prog"><i></i></div><div class="shd"><img src="assets/avatar.webp" alt=""><b>clinica_clear_dent</b><span>Agora</span><button class="sx" aria-label="Fechar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div></div><div class="sbot"><div class="msg"><span>Enviar mensagem</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%207%20%28Story%20responda%20sangramento%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%207%20%28Story%20responda%20sangramento%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></div></section><section class="post sp" data-post="6" data-n="1" hidden><div class="sbox"><video src="assets/s/sab.mp4" poster="assets/s/sab.webp" playsinline preload="metadata"></video><div class="prog"><i></i></div><div class="shd"><img src="assets/avatar.webp" alt=""><b>clinica_clear_dent</b><span>Agora</span><button class="sx" aria-label="Fechar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div></div><div class="sbot"><div class="msg"><span>Enviar mensagem</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%206%20%28Story%20como%20agendar%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%206%20%28Story%20como%20agendar%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></div></section><section class="post" data-post="8" data-n="1" hidden><div class="ph2"><img src="assets/avatar.webp" alt=""><div><b>clinica_clear_dent</b><span>28 de outubro</span></div><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg></div><div class="vp vid"><video src="assets/p8/reel.mp4" poster="assets/p8/cover.webp" controls playsinline preload="metadata"></video></div><div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.4-4.9A8.5 8.5 0 1 1 21 11.5z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg><svg class="sv" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg></div><div class="cap"><div class="tx"><b>clinica_clear_dent</b> Cada criança tem o seu tempo 🤍🦷
+
+Na Clear Dent, a primeira consulta é um primeiro passo, e ele pode ser dado no ritmo de cada família 💙
+
+✅ Conhecer o espaço sem pressa 🏥
+✅ Atendimento a crianças com necessidades especiais, com paciência e tempo de adaptação 🤗
+✅ Cuidado no ritmo de cada criança e de cada família 🌱
+
+💬 Conhece uma família que precisa saber disso? Compartilhe este Reel 🔖
+📲 Marque sua consulta conosco pelo link da bio e conte pra gente como é o seu filho.
+📍 Clear Dent · Praça Orlando Hungria, 16, Sala 601, Nilópolis
+
+
+
+
+
+<span class="tg">#odontopediatria #dentistainfantil #necessidadesespeciais #acolhimento #saudebucalinfantil #nilopolis #cleardent</span></div><button class="more">mais</button><small>28 de outubro</small></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%208%20%28Reel%20Cada%20crian%C3%A7a%20tem%20o%20seu%20tempo%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%208%20%28Reel%20Cada%20crian%C3%A7a%20tem%20o%20seu%20tempo%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></section><section class="post" data-post="9" data-n="6" data-i="0" hidden><div class="ph2"><img src="assets/avatar.webp" alt=""><div><b>clinica_clear_dent</b><span>30 de outubro</span></div><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="5" cy="12" r="1.8"/><circle cx="12" cy="12" r="1.8"/><circle cx="19" cy="12" r="1.8"/></svg></div><div class="vp"><div class="tr"><img src="assets/p9/s1.webp" alt="Carrossel Dia das Bruxas, slide 1 de 6" width="1080" height="1350" decoding="async"><img src="assets/p9/s2.webp" alt="Carrossel Dia das Bruxas, slide 2 de 6" width="1080" height="1350" loading="lazy" decoding="async"><img src="assets/p9/s3.webp" alt="Carrossel Dia das Bruxas, slide 3 de 6" width="1080" height="1350" loading="lazy" decoding="async"><img src="assets/p9/s4.webp" alt="Carrossel Dia das Bruxas, slide 4 de 6" width="1080" height="1350" loading="lazy" decoding="async"><img src="assets/p9/s5.webp" alt="Carrossel Dia das Bruxas, slide 5 de 6" width="1080" height="1350" loading="lazy" decoding="async"><img src="assets/p9/s6.webp" alt="Carrossel Dia das Bruxas, slide 6 de 6" width="1080" height="1350" loading="lazy" decoding="async"></div><span class="cnt">1/6</span><button class="nvb l" aria-label="Slide anterior" hidden><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button><button class="nvb r" aria-label="Próximo slide"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg></button></div><div class="ico" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-12.3 7.6L3.5 20.5l1.4-4.9A8.5 8.5 0 1 1 21 11.5z"/></svg><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg><svg class="sv" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M6 3h12v18l-6-4.5L6 21z"/></svg></div><div class="dots"></div><div class="cap"><div class="tx"><b>clinica_clear_dent</b> Dia das Bruxas chegou! 🎃🦇 E os dentes das crianças? 🦷
+
+Doce faz parte da festa, e dá para curtir com cuidado 💜
+
+🍽️ Doces junto das refeições, em vez de beliscar o dia todo
+🍬 Atenção aos que grudam: balas e caramelos ficam mais tempo nos dentes
+🗣️ Combinem a quantidade do dia antes da festa
+💧 Água depois dos doces ajuda a enxaguar a boca
+🪥 Depois, volte à escovação e ao fio dental da rotina
+
+💬 Qual a fantasia do seu pequeno? Conta aqui nos comentários 👇
+📲 Quer cuidar do sorriso do seu filho? Marque sua consulta conosco pelo link da bio.
+📍 Clear Dent · Praça Orlando Hungria, 16, Sala 601, Nilópolis
+
+
+
+
+
+<span class="tg">#diadasbruxas #halloween #odontopediatria #dentistainfantil #saudebucalinfantil #nilopolis #cleardent</span></div><button class="more">mais</button><small>30 de outubro</small></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%209%20%28Carrossel%20Dia%20das%20Bruxas%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%209%20%28Carrossel%20Dia%20das%20Bruxas%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></section><section class="post sp" data-post="10" data-n="1" hidden><div class="sbox"><video src="assets/s/sab31.mp4" poster="assets/s/sab31.webp" playsinline preload="metadata"></video><div class="prog"><i></i></div><div class="shd"><img src="assets/avatar.webp" alt=""><b>clinica_clear_dent</b><span>Agora</span><button class="sx" aria-label="Fechar"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div></div><div class="sbot"><div class="msg"><span>Enviar mensagem</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><path d="M12 21s-7.5-4.7-9.3-9.6C1.5 7.8 4 4.8 7.2 4.8c2 0 3.6 1.1 4.8 2.9 1.2-1.8 2.8-2.9 4.8-2.9 3.2 0 5.7 3 4.5 6.6C19.5 16.3 12 21 12 21z"/></svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg></div><div class="appr"><a class="ab ok" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Aprovei%20o%20post%2010%20%28Story%20responda%20aparelho%20adulto%29%20da%20Clear%20Dent.%20Pode%20seguir%20com%20a%20publica%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.2 4.2L19 7"/></svg> Aprovar</a><a class="ab ed" href="https://wa.me/5521990800215?text=Ol%C3%A1%21%20Quero%20pedir%20um%20ajuste%20no%20post%2010%20%28Story%20responda%20aparelho%20adulto%29%20da%20Clear%20Dent%3A%20" target="_blank" rel="noopener"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20l4-1 11-11-3-3L5 16z"/></svg> Pedir ajuste</a></div></div></section></div>
+  </div>
+  <div class="nav" aria-hidden="true">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.5 3 9.8V21h6.5v-6.5h5V21H21V9.8z"/></svg>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="5"/><path d="M3 9h18M9 3l3 6M15 3l3 6"/><path d="M10.5 12.5v5l4-2.5z" fill="currentColor"/></svg>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"><path d="M22 3L9.5 10.5M22 3l-6.5 18-3.5-8-8-3.5z"/></svg>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M16.5 16.5 21 21"/></svg>
+    <img class="me" src="assets/avatar.webp" alt=""><span class="hi"></span>
+  </div>
+</div></div></div>
+<p class="hint">Clear Dent · Nilópolis</p>
+<script>
+(function(){
+  var stage=document.getElementById('stage'), phone=document.getElementById('phone');
+  var viewer=document.getElementById('viewer'), back=document.getElementById('back');
+  var posts=[].slice.call(document.querySelectorAll('.post'));
+  var mq=window.matchMedia('(max-width:480px)'), cur=null, last=null, sx=null, sp=null;
+  var note=document.getElementById('note');
+  function fitPhone(){
+    if(mq.matches){ stage.style.width=''; stage.style.height=''; phone.style.transform=''; return; }
+    var s=Math.min(1,(window.innerHeight-(note.offsetHeight+70))/868);
+    s=Math.max(.5,s);
+    phone.style.transform='scale('+s+')';
+    stage.style.width=(414*s)+'px'; stage.style.height=(868*s)+'px';
+  }
+  function upd(p,animate){
+    var n=parseInt(p.getAttribute('data-n')||'1',10), i=parseInt(p.getAttribute('data-i')||'0',10);
+    var tr=p.querySelector('.tr'); if(!tr||n<2) return;
+    tr.style.transition=animate?'':'none';
+    tr.style.transform='translateX('+(-i*100)+'%)';
+    var dots=p.querySelectorAll('.dots i');
+    for(var j=0;j<dots.length;j++) dots[j].className=(j===i)?'on':'';
+    p.querySelector('.cnt').textContent=(i+1)+'/'+n;
+    p.querySelector('.nvb.l').hidden=(i===0);
+    p.querySelector('.nvb.r').hidden=(i===n-1);
+  }
+  function go(p,d){
+    var n=parseInt(p.getAttribute('data-n')||'1',10), i=parseInt(p.getAttribute('data-i')||'0',10);
+    var k=Math.max(0,Math.min(n-1,i+d)); p.setAttribute('data-i',k); upd(p,true);
+  }
+  posts.forEach(function(p){
+    var n=parseInt(p.getAttribute('data-n')||'1',10), dd=p.querySelector('.dots');
+    if(dd){ for(var k=0;k<n;k++) dd.appendChild(document.createElement('i')); }
+    var l=p.querySelector('.nvb.l'), r=p.querySelector('.nvb.r');
+    if(l) l.addEventListener('click',function(){go(p,-1)});
+    if(r) r.addEventListener('click',function(){go(p,1)});
+    var m=p.querySelector('.more');
+    if(m) m.addEventListener('click',function(){ p.querySelector('.cap').className='cap open'; });
+    var vp=p.querySelector('.vp');
+    if(vp&&n>1) vp.addEventListener('pointerdown',function(e){ sx=e.clientX; sp=p; });
+  });
+  window.addEventListener('pointerup',function(e){
+    if(sx===null||!sp) return; var dx=e.clientX-sx, p=sp; sx=null; sp=null;
+    if(dx<-40) go(p,1); else if(dx>40) go(p,-1);
+  });
+  function open(btn){
+    last=btn; var id=btn.getAttribute('data-post');
+    posts.forEach(function(p){ p.hidden=(p.getAttribute('data-post')!==id); var v=p.querySelector('video'); if(v&&p.hidden) v.pause(); });
+    cur=posts.filter(function(p){return !p.hidden;})[0];
+    if(!cur) return;
+    cur.setAttribute('data-i','0'); var isS=cur.classList.contains('sp'); viewer.classList.toggle('st',isS);
+    var c=cur.querySelector('.cap'); if(c) c.className='cap';
+    viewer.hidden=false; upd(cur,false);
+    viewer.querySelector('.vs').scrollTop=0; back.focus(); if(isS) playStory(cur);
+  }
+
+  function playStory(p){
+    var v=p.querySelector('video'), bar=p.querySelector('.prog i'); if(!v) return;
+    try{ v.currentTime=0; }catch(e){}
+    bar.style.width='0%';
+    v.ontimeupdate=function(){ if(v.duration) bar.style.width=Math.min(100,v.currentTime/v.duration*100)+'%'; };
+    v.onended=function(){ bar.style.width='100%'; };
+    v.onclick=function(){ if(v.paused){ if(v.ended){ v.currentTime=0; } v.play(); } else v.pause(); };
+    var pr=v.play(); if(pr&&pr.catch) pr.catch(function(){ v.muted=true; v.play().catch(function(){}); });
+  }
+  posts.forEach(function(p){ var x=p.querySelector('.sx'); if(x) x.addEventListener('click',function(){ close(); }); });
+  function close(){ viewer.hidden=true; viewer.classList.remove('st'); posts.forEach(function(p){var v=p.querySelector('video'); if(v) v.pause();}); if(last) last.focus(); }
+  (function(){var a=document.getElementById('avr'); if(a) a.addEventListener('click',function(){ var f=document.querySelector('.hl .sty'); if(f) f.click(); }); })();
+  document.getElementById('grid').addEventListener('click',function(e){ var b=e.target.closest('.tile'); if(b) open(b); });
+  back.addEventListener('click',close);
+  document.addEventListener('click',function(e){ var c=e.target.closest('.cpy'); if(!c) return; var el=document.getElementById('lg'+c.getAttribute('data-copy')); var tx=el?el.textContent:'';
+    function ok(){ c.textContent='Copiado!'; setTimeout(function(){ c.textContent='Copiar'; },1800); }
+    try{ navigator.clipboard.writeText(tx).then(ok,function(){ fb(); }); }catch(x){ fb(); }
+    function fb(){ try{ var r=document.createRange(); r.selectNodeContents(el); var sl=window.getSelection(); sl.removeAllRanges(); sl.addRange(r); document.execCommand('copy'); ok(); }catch(y){} } });
+  document.getElementById('prof').addEventListener('click',function(e){ var s=e.target.closest('.sty'); if(s) open(s); });
+  document.getElementById('prof').addEventListener('keydown',function(e){ if(e.key==='Enter'){ var s=e.target.closest('.sty'); if(s) open(s); } });
+  document.addEventListener('keydown',function(e){
+    if(viewer.hidden||!cur) return;
+    if(e.key==='Escape') close();
+    if(e.key==='ArrowRight') go(cur,1);
+    if(e.key==='ArrowLeft') go(cur,-1);
+  });
+  window.addEventListener('resize',fitPhone);
+  fitPhone();
+  if(document.fonts&&document.fonts.ready) document.fonts.ready.then(fitPhone);
+})();
+</script>
